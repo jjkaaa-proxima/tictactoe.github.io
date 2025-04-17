@@ -1,8 +1,8 @@
 const boardSize = 10;  // 10x10 grid
 let currentPlayer = 'X';  // Start with player X
 let gameBoard = [];  // 2D array to store the board state
-let isGameOver = false;
-let isAI = false;  // Set to true for Player vs AI
+let isGameOver = true;
+let isAI = true;  // Set to true for Player vs AI
 
 // Elements
 const gameBoardElement = document.getElementById('game-board');
